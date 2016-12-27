@@ -1,5 +1,5 @@
 # XYFaceKeyboard
-自定义类似微博界面（图文混排，优化流畅性，高度封装）
+自定义动态表情键盘（简单，低耦合，可以更换动态表情）
 ===
  <br>个人邮箱：892569921@qq.com [我的CSDN](http://blog.csdn.net/cry__boy):http://blog.csdn.net/cry__boy <br/>
 <br>添加方法：cocoapods<br/>
