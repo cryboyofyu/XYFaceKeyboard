@@ -4,7 +4,6 @@
  <br>个人邮箱：892569921@qq.com [我的CSDN](http://blog.csdn.net/cry__boy):http://blog.csdn.net/cry__boy <br/>
 <br>添加方法：cocoapods<br/>
 <br>pod 'XYFaceKeyboard'</br>
----
 <br>1.方法<br/>
 ```objective-c
 _xyInputBox = [[XYInputBox alloc]initWithFrame:CGRectMake(0, CGRectGetHeight(self.view.frame) - xy_commentBoxH,xy_width, xy_commentBoxH) withBgView:self.view];
