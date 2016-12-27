@@ -1,0 +1,9 @@
+platform:ios, '7.0'
+
+target 'XYFaceKeyboardExample' do
+
+pod 'YYText'
+pod 'YYImage'
+pod 'SDWebImage'
+
+end
