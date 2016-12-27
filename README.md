@@ -17,7 +17,7 @@ _xyInputBox = [[XYInputBox alloc]initWithFrame:CGRectMake(0, CGRectGetHeight(sel
     ```
     <br>2.发送文本回调</br>
     代理方法
- ```objective-c
+```objective-c
     - (void)xy_getMessage:(NSString *)message{
     [_xyInputBox xy_keyboardResignFirstResponder];
     _xyTextView.attributedText = [message xy_dealTheMessage];
