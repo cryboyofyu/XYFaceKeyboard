@@ -1,6 +1,6 @@
 # XYFaceKeyboard
- 自定义动态表情键盘（方便，低耦合，可以自己增加动态表情） 
- ===
+自定义类似微博界面（图文混排，优化流畅性，高度封装）
+===
  <br>个人邮箱：892569921@qq.com [我的CSDN](http://blog.csdn.net/cry__boy):http://blog.csdn.net/cry__boy <br/>
 <br>添加方法：cocoapods<br/>
 <br>pod 'XYFaceKeyboard'</br>
