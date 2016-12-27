@@ -14,7 +14,7 @@ _xyInputBox = [[XYInputBox alloc]initWithFrame:CGRectMake(0, CGRectGetHeight(sel
     _xyInputBox.xy_faceKeyboard.xy_categoryNormalMArr = [NSMutableArray arrayWithArray:@[@"默认",@"欣宇",@"最帅",@"帽兵"]];
     _xyInputBox.xy_faceKeyboard.xy_categorySelectedMArr = [NSMutableArray arrayWithArray:@[@"默认",@"欣宇",@"最帅",@"帽兵"]];
     [_xyInputBox xy_createInputBox];
-    <br>2.发送文本回调</br>
+    2.发送文本回调
     代理方法
     - (void)xy_getMessage:(NSString *)message{
     [_xyInputBox xy_keyboardResignFirstResponder];
