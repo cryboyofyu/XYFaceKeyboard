@@ -14,15 +14,13 @@ _xyInputBox = [[XYInputBox alloc]initWithFrame:CGRectMake(0, CGRectGetHeight(sel
     _xyInputBox.xy_faceKeyboard.xy_categoryNormalMArr = [NSMutableArray arrayWithArray:@[@"默认",@"欣宇",@"最帅",@"帽兵"]];
     _xyInputBox.xy_faceKeyboard.xy_categorySelectedMArr = [NSMutableArray arrayWithArray:@[@"默认",@"欣宇",@"最帅",@"帽兵"]];
     [_xyInputBox xy_createInputBox];
-    ```
     <br>2.发送文本回调</br>
     代理方法
-```objective-c
     - (void)xy_getMessage:(NSString *)message{
     [_xyInputBox xy_keyboardResignFirstResponder];
     _xyTextView.attributedText = [message xy_dealTheMessage];
     NSLog(@"发出的消息:%@",message);
-    
+ ```   
 }
     
 <br>**欢迎大家提意见，一起交流学习，会根据大家的反馈及时更新。谢谢！**<br/>
