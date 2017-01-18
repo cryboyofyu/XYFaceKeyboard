@@ -35,10 +35,10 @@
     NSMutableArray * _xyOtherImgMArr;
     UIScrollView * _xyFaceScrollView;
     XYPageControl * _xyPageControl;
+    NSDictionary * _xyFace0Dic;
     NSDictionary * _xyFace1Dic;
     NSDictionary * _xyFace2Dic;
     NSDictionary * _xyFace3Dic;
-    NSDictionary * _xyFace4Dic;
 
 }
 
@@ -53,7 +53,7 @@
         [self xy_layoutPageControl];
         [self xy_layoutKeyboardDeleteBtn];
         
-        [self xy_layoutScrollCategoryBtnsWithPageTag:1000 withDataDic:_xyFace1Dic];
+        [self xy_layoutScrollCategoryBtnsWithPageTag:1000 withDataDic:_xyFace0Dic];
     }
     return self;
 }
@@ -69,13 +69,12 @@
         [_xy_categorySelectedMArr addObject:[UIImage imageNamed:[NSString stringWithFormat:@"xyBtnSelected%d",i]]];
         
     }
-    _xyOtherImgMArr = [[NSMutableArray alloc]initWithObjects:@"[pt顶一个]",@"[pt赞一个]",@"[pt掌声]",@"[pt鲜花]",@"[pt看多]",@"[pt看空]",@"[pt盘整]", nil];
-    _xyFace1Dic = [NSDictionary dictionaryWithContentsOfFile:
-                   [[NSBundle mainBundle] pathForResource:@"XYFace1"
+    _xyFace0Dic = [NSDictionary dictionaryWithContentsOfFile:
+                   [[NSBundle mainBundle] pathForResource:@"XYFace0"
                                                    ofType:@"plist"]];
+    _xyFace1Dic = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"XYFace1" ofType:@"plist"]];
     _xyFace2Dic = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"XYFace2" ofType:@"plist"]];
-    _xyFace3Dic = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"XYFace5" ofType:@"plist"]];
-    _xyFace4Dic = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"XYFace4" ofType:@"plist"]];
+    _xyFace3Dic = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"XYFace3" ofType:@"plist"]];
 
 }
 
@@ -173,9 +172,10 @@
                  forControlEvents:UIControlEventTouchUpInside];
             CGFloat x = xy_width/2.0;
             xyFaceButton.frame = CGRectMake(((i+1)%2)*x+10, (20+20)*((i-1)/2)+20, x-20, 20);
-            [xyFaceButton setImage:[UIImage imageNamed:[NSString stringWithFormat:@"%d.gif",i]] forState:UIControlStateNormal];
-            NSArray *nameArr = [dataDic allValues];
-
+                NSArray *array = [dataDic allKeys];
+                NSArray *nameArr = [dataDic allValues];
+                [xyFaceButton setImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@",array[i]]] forState:UIControlStateNormal];
+                                
             xyFaceButton.xy_btnBgImgName = nameArr[i];
            [_xyScrollView addSubview:xyFaceButton];
 
@@ -240,22 +240,22 @@
     switch (sender.tag)
     {
         case 0:
-            [self xy_layoutScrollCategoryBtnsWithPageTag:1000 withDataDic:_xyFace1Dic];
-            _xyPageControl.numberOfPages = [_xyFace1Dic allKeys].count / FACE_COUNT_PAGE+1 ;
+            [self xy_layoutScrollCategoryBtnsWithPageTag:1000 withDataDic:_xyFace0Dic];
+            _xyPageControl.numberOfPages = [_xyFace0Dic allKeys].count / FACE_COUNT_PAGE+1 ;
             break;
         case 1:
-            [self xy_layoutScrollCategoryBtnsWithPageTag:2000 withDataDic:_xyFace2Dic];
+            [self xy_layoutScrollCategoryBtnsWithPageTag:2000 withDataDic:_xyFace1Dic];
             _xyPageControl.numberOfPages = 7 / FACE_COUNT_PAGE +1;
             break;
         case 2:
             
-            [self xy_layoutScrollCategoryBtnsWithPageTag:3000 withDataDic:_xyFace3Dic];
-            _xyPageControl.numberOfPages = [_xyFace1Dic allKeys].count / FACE_COUNT_PAGE+1 ;
+            [self xy_layoutScrollCategoryBtnsWithPageTag:3000 withDataDic:_xyFace2Dic];
+            _xyPageControl.numberOfPages = [_xyFace2Dic allKeys].count / FACE_COUNT_PAGE+1 ;
 
             break;
         case 3:
-            [self xy_layoutScrollCategoryBtnsWithPageTag:4000 withDataDic:_xyFace4Dic];
-            _xyPageControl.numberOfPages = [_xyFace1Dic allKeys].count / FACE_COUNT_PAGE +1;
+            [self xy_layoutScrollCategoryBtnsWithPageTag:4000 withDataDic:_xyFace3Dic];
+            _xyPageControl.numberOfPages = [_xyFace3Dic allKeys].count / FACE_COUNT_PAGE +1;
             break;
         default:
             break;

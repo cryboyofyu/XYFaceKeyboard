@@ -19,11 +19,10 @@
 		14BA0FEA1E0923A500A6A5E7 /* XYFaceKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BA0FE41E0923A500A6A5E7 /* XYFaceKeyboard.m */; };
 		14BA0FEB1E0923A500A6A5E7 /* XYInputBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BA0FE61E0923A500A6A5E7 /* XYInputBox.m */; };
 		14BA0FEC1E0923A500A6A5E7 /* XYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BA0FE81E0923A500A6A5E7 /* XYPageControl.m */; };
-		14BA0FF31E0923B800A6A5E7 /* XYFace1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14BA0FED1E0923B800A6A5E7 /* XYFace1.plist */; };
-		14BA0FF41E0923B800A6A5E7 /* XYFace2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14BA0FEE1E0923B800A6A5E7 /* XYFace2.plist */; };
-		14BA0FF51E0923B800A6A5E7 /* XYFace3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14BA0FEF1E0923B800A6A5E7 /* XYFace3.plist */; };
-		14BA0FF61E0923B800A6A5E7 /* XYFace4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14BA0FF01E0923B800A6A5E7 /* XYFace4.plist */; };
-		14BA0FF71E0923B800A6A5E7 /* XYFace5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14BA0FF11E0923B800A6A5E7 /* XYFace5.plist */; };
+		14BA0FF31E0923B800A6A5E7 /* XYFace0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14BA0FED1E0923B800A6A5E7 /* XYFace0.plist */; };
+		14BA0FF41E0923B800A6A5E7 /* XYFace1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14BA0FEE1E0923B800A6A5E7 /* XYFace1.plist */; };
+		14BA0FF61E0923B800A6A5E7 /* XYFace3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14BA0FF01E0923B800A6A5E7 /* XYFace3.plist */; };
+		14BA0FF71E0923B800A6A5E7 /* XYFace2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14BA0FF11E0923B800A6A5E7 /* XYFace2.plist */; };
 		14BA0FF81E0923B800A6A5E7 /* emotionImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14BA0FF21E0923B800A6A5E7 /* emotionImage.plist */; };
 		14BA11E01E092A4600A6A5E7 /* x00.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA113B1E092A4500A6A5E7 /* x00.gif */; };
 		14BA11E11E092A4600A6A5E7 /* x01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA113C1E092A4500A6A5E7 /* x01.gif */; };
@@ -68,13 +67,13 @@
 		14BA12081E092A4600A6A5E7 /* x40.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA11631E092A4500A6A5E7 /* x40.gif */; };
 		14BA12091E092A4600A6A5E7 /* x41.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA11641E092A4500A6A5E7 /* x41.gif */; };
 		14BA120A1E092A4600A6A5E7 /* x42.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA11651E092A4500A6A5E7 /* x42.gif */; };
-		14BA120B1E092A4600A6A5E7 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA11671E092A4500A6A5E7 /* 1.gif */; };
-		14BA120C1E092A4600A6A5E7 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA11681E092A4500A6A5E7 /* 2.gif */; };
-		14BA120D1E092A4600A6A5E7 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA11691E092A4500A6A5E7 /* 3.gif */; };
-		14BA120E1E092A4600A6A5E7 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA116A1E092A4500A6A5E7 /* 4.gif */; };
-		14BA120F1E092A4600A6A5E7 /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA116B1E092A4500A6A5E7 /* 5.gif */; };
-		14BA12101E092A4600A6A5E7 /* 6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA116C1E092A4500A6A5E7 /* 6.gif */; };
-		14BA12111E092A4600A6A5E7 /* 7.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA116D1E092A4500A6A5E7 /* 7.gif */; };
+		14BA120B1E092A4600A6A5E7 /* xy_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA11671E092A4500A6A5E7 /* xy_1.gif */; };
+		14BA120C1E092A4600A6A5E7 /* xy_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA11681E092A4500A6A5E7 /* xy_2.gif */; };
+		14BA120D1E092A4600A6A5E7 /* xy_3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA11691E092A4500A6A5E7 /* xy_3.gif */; };
+		14BA120E1E092A4600A6A5E7 /* xy_4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA116A1E092A4500A6A5E7 /* xy_4.gif */; };
+		14BA120F1E092A4600A6A5E7 /* xy_5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA116B1E092A4500A6A5E7 /* xy_5.gif */; };
+		14BA12101E092A4600A6A5E7 /* xy_6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA116C1E092A4500A6A5E7 /* xy_6.gif */; };
+		14BA12111E092A4600A6A5E7 /* xy_7.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA116D1E092A4500A6A5E7 /* xy_7.gif */; };
 		14BA12121E092A4600A6A5E7 /* angrya_thumb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA116F1E092A4500A6A5E7 /* angrya_thumb.gif */; };
 		14BA12131E092A4600A6A5E7 /* bb_thumb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA11701E092A4500A6A5E7 /* bb_thumb.gif */; };
 		14BA12141E092A4600A6A5E7 /* bba_thumb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14BA11711E092A4500A6A5E7 /* bba_thumb.gif */; };
@@ -249,11 +248,10 @@
 		14BA0FE61E0923A500A6A5E7 /* XYInputBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYInputBox.m; sourceTree = "<group>"; };
 		14BA0FE71E0923A500A6A5E7 /* XYPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPageControl.h; sourceTree = "<group>"; };
 		14BA0FE81E0923A500A6A5E7 /* XYPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPageControl.m; sourceTree = "<group>"; };
-		14BA0FED1E0923B800A6A5E7 /* XYFace1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XYFace1.plist; sourceTree = "<group>"; };
-		14BA0FEE1E0923B800A6A5E7 /* XYFace2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XYFace2.plist; sourceTree = "<group>"; };
-		14BA0FEF1E0923B800A6A5E7 /* XYFace3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XYFace3.plist; sourceTree = "<group>"; };
-		14BA0FF01E0923B800A6A5E7 /* XYFace4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XYFace4.plist; sourceTree = "<group>"; };
-		14BA0FF11E0923B800A6A5E7 /* XYFace5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XYFace5.plist; sourceTree = "<group>"; };
+		14BA0FED1E0923B800A6A5E7 /* XYFace0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XYFace0.plist; sourceTree = "<group>"; };
+		14BA0FEE1E0923B800A6A5E7 /* XYFace1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XYFace1.plist; sourceTree = "<group>"; };
+		14BA0FF01E0923B800A6A5E7 /* XYFace3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XYFace3.plist; sourceTree = "<group>"; };
+		14BA0FF11E0923B800A6A5E7 /* XYFace2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XYFace2.plist; sourceTree = "<group>"; };
 		14BA0FF21E0923B800A6A5E7 /* emotionImage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emotionImage.plist; sourceTree = "<group>"; };
 		14BA113B1E092A4500A6A5E7 /* x00.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = x00.gif; sourceTree = "<group>"; };
 		14BA113C1E092A4500A6A5E7 /* x01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = x01.gif; sourceTree = "<group>"; };
@@ -298,13 +296,13 @@
 		14BA11631E092A4500A6A5E7 /* x40.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = x40.gif; sourceTree = "<group>"; };
 		14BA11641E092A4500A6A5E7 /* x41.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = x41.gif; sourceTree = "<group>"; };
 		14BA11651E092A4500A6A5E7 /* x42.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = x42.gif; sourceTree = "<group>"; };
-		14BA11671E092A4500A6A5E7 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
-		14BA11681E092A4500A6A5E7 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
-		14BA11691E092A4500A6A5E7 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
-		14BA116A1E092A4500A6A5E7 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
-		14BA116B1E092A4500A6A5E7 /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.gif; sourceTree = "<group>"; };
-		14BA116C1E092A4500A6A5E7 /* 6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 6.gif; sourceTree = "<group>"; };
-		14BA116D1E092A4500A6A5E7 /* 7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 7.gif; sourceTree = "<group>"; };
+		14BA11671E092A4500A6A5E7 /* xy_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xy_1.gif; sourceTree = "<group>"; };
+		14BA11681E092A4500A6A5E7 /* xy_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xy_2.gif; sourceTree = "<group>"; };
+		14BA11691E092A4500A6A5E7 /* xy_3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xy_3.gif; sourceTree = "<group>"; };
+		14BA116A1E092A4500A6A5E7 /* xy_4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xy_4.gif; sourceTree = "<group>"; };
+		14BA116B1E092A4500A6A5E7 /* xy_5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xy_5.gif; sourceTree = "<group>"; };
+		14BA116C1E092A4500A6A5E7 /* xy_6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xy_6.gif; sourceTree = "<group>"; };
+		14BA116D1E092A4500A6A5E7 /* xy_7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xy_7.gif; sourceTree = "<group>"; };
 		14BA116F1E092A4500A6A5E7 /* angrya_thumb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = angrya_thumb.gif; sourceTree = "<group>"; };
 		14BA11701E092A4500A6A5E7 /* bb_thumb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bb_thumb.gif; sourceTree = "<group>"; };
 		14BA11711E092A4500A6A5E7 /* bba_thumb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bba_thumb.gif; sourceTree = "<group>"; };
@@ -553,11 +551,10 @@
 		14BA0FDE1E0923A500A6A5E7 /* XYSource */ = {
 			isa = PBXGroup;
 			children = (
-				14BA0FED1E0923B800A6A5E7 /* XYFace1.plist */,
-				14BA0FEE1E0923B800A6A5E7 /* XYFace2.plist */,
-				14BA0FEF1E0923B800A6A5E7 /* XYFace3.plist */,
-				14BA0FF01E0923B800A6A5E7 /* XYFace4.plist */,
-				14BA0FF11E0923B800A6A5E7 /* XYFace5.plist */,
+				14BA0FED1E0923B800A6A5E7 /* XYFace0.plist */,
+				14BA0FEE1E0923B800A6A5E7 /* XYFace1.plist */,
+				14BA0FF01E0923B800A6A5E7 /* XYFace3.plist */,
+				14BA0FF11E0923B800A6A5E7 /* XYFace2.plist */,
 				14BA0FF21E0923B800A6A5E7 /* emotionImage.plist */,
 			);
 			path = XYSource;
@@ -632,13 +629,13 @@
 		14BA11661E092A4500A6A5E7 /* XYCaitiao */ = {
 			isa = PBXGroup;
 			children = (
-				14BA11671E092A4500A6A5E7 /* 1.gif */,
-				14BA11681E092A4500A6A5E7 /* 2.gif */,
-				14BA11691E092A4500A6A5E7 /* 3.gif */,
-				14BA116A1E092A4500A6A5E7 /* 4.gif */,
-				14BA116B1E092A4500A6A5E7 /* 5.gif */,
-				14BA116C1E092A4500A6A5E7 /* 6.gif */,
-				14BA116D1E092A4500A6A5E7 /* 7.gif */,
+				14BA11671E092A4500A6A5E7 /* xy_1.gif */,
+				14BA11681E092A4500A6A5E7 /* xy_2.gif */,
+				14BA11691E092A4500A6A5E7 /* xy_3.gif */,
+				14BA116A1E092A4500A6A5E7 /* xy_4.gif */,
+				14BA116B1E092A4500A6A5E7 /* xy_5.gif */,
+				14BA116C1E092A4500A6A5E7 /* xy_6.gif */,
+				14BA116D1E092A4500A6A5E7 /* xy_7.gif */,
 			);
 			path = XYCaitiao;
 			sourceTree = "<group>";
@@ -932,11 +929,11 @@
 				14BA12751E092A4600A6A5E7 /* wg_thumb.gif in Resources */,
 				14BA11EB1E092A4600A6A5E7 /* x11.gif in Resources */,
 				14BA11FA1E092A4600A6A5E7 /* x26.gif in Resources */,
-				14BA0FF41E0923B800A6A5E7 /* XYFace2.plist in Resources */,
+				14BA0FF41E0923B800A6A5E7 /* XYFace1.plist in Resources */,
 				14BA12261E092A4600A6A5E7 /* k_thumb.gif in Resources */,
 				14BA122C1E092A4600A6A5E7 /* mb_thumb.gif in Resources */,
 				14BA12501E092A4600A6A5E7 /* pb38.gif in Resources */,
-				14BA0FF61E0923B800A6A5E7 /* XYFace4.plist in Resources */,
+				14BA0FF61E0923B800A6A5E7 /* XYFace3.plist in Resources */,
 				14BA12521E092A4600A6A5E7 /* pb4.gif in Resources */,
 				14BA11F91E092A4600A6A5E7 /* x25.gif in Resources */,
 				14BA12741E092A4600A6A5E7 /* vw_thumb.gif in Resources */,
@@ -954,8 +951,7 @@
 				14BA12731E092A4600A6A5E7 /* unheart.gif in Resources */,
 				14BA0FA61E08D80C00A6A5E7 /* LaunchScreen.storyboard in Resources */,
 				14BA12651E092A4600A6A5E7 /* pb9.gif in Resources */,
-				14BA12111E092A4600A6A5E7 /* 7.gif in Resources */,
-				14BA0FF51E0923B800A6A5E7 /* XYFace3.plist in Resources */,
+				14BA12111E092A4600A6A5E7 /* xy_7.gif in Resources */,
 				14BA12081E092A4600A6A5E7 /* x40.gif in Resources */,
 				14BA127F1E092A4600A6A5E7 /* icon_emotion.png in Resources */,
 				14BA126A1E092A4600A6A5E7 /* sk_thumb.gif in Resources */,
@@ -967,7 +963,7 @@
 				14BA129F1E092F5100A6A5E7 /* xyBtnSelected1.png in Resources */,
 				14BA12561E092A4600A6A5E7 /* pb43.gif in Resources */,
 				14BA12331E092A4600A6A5E7 /* pb11.gif in Resources */,
-				14BA120E1E092A4600A6A5E7 /* 4.gif in Resources */,
+				14BA120E1E092A4600A6A5E7 /* xy_4.gif in Resources */,
 				14BA12381E092A4600A6A5E7 /* pb16.gif in Resources */,
 				14BA11E11E092A4600A6A5E7 /* x01.gif in Resources */,
 				14BA12401E092A4600A6A5E7 /* pb23.gif in Resources */,
@@ -981,7 +977,7 @@
 				14BA11F11E092A4600A6A5E7 /* x17.gif in Resources */,
 				14BA12491E092A4600A6A5E7 /* pb31.gif in Resources */,
 				14BA12241E092A4600A6A5E7 /* heia_thumb.gif in Resources */,
-				14BA0FF71E0923B800A6A5E7 /* XYFace5.plist in Resources */,
+				14BA0FF71E0923B800A6A5E7 /* XYFace2.plist in Resources */,
 				14BA12681E092A4600A6A5E7 /* sb_thumb.gif in Resources */,
 				14BA0FA31E08D80C00A6A5E7 /* Assets.xcassets in Resources */,
 				14BA12621E092A4600A6A5E7 /* pb6.gif in Resources */,
@@ -994,7 +990,7 @@
 				14BA124F1E092A4600A6A5E7 /* pb37.gif in Resources */,
 				14BA12291E092A4600A6A5E7 /* laugh.gif in Resources */,
 				14BA127C1E092A4600A6A5E7 /* yx_thumb.gif in Resources */,
-				14BA120C1E092A4600A6A5E7 /* 2.gif in Resources */,
+				14BA120C1E092A4600A6A5E7 /* xy_2.gif in Resources */,
 				14BA123A1E092A4600A6A5E7 /* pb18.gif in Resources */,
 				14BA120A1E092A4600A6A5E7 /* x42.gif in Resources */,
 				14BA11F41E092A4600A6A5E7 /* x20.gif in Resources */,
@@ -1012,7 +1008,7 @@
 				14BA12931E092F5100A6A5E7 /* xyBtn1.png in Resources */,
 				14BA12941E092F5100A6A5E7 /* xyBtn2.png in Resources */,
 				14BA11EC1E092A4600A6A5E7 /* x12.gif in Resources */,
-				14BA12101E092A4600A6A5E7 /* 6.gif in Resources */,
+				14BA12101E092A4600A6A5E7 /* xy_6.gif in Resources */,
 				14BA12181E092A4600A6A5E7 /* cj_thumb.gif in Resources */,
 				14BA12341E092A4600A6A5E7 /* pb12.gif in Resources */,
 				14BA12A01E092F5100A6A5E7 /* xyBtnSelected2.png in Resources */,
@@ -1023,7 +1019,7 @@
 				14BA11E91E092A4600A6A5E7 /* x09.gif in Resources */,
 				14BA12371E092A4600A6A5E7 /* pb15.gif in Resources */,
 				14BA121D1E092A4600A6A5E7 /* dizzya_thumb.gif in Resources */,
-				14BA120B1E092A4600A6A5E7 /* 1.gif in Resources */,
+				14BA120B1E092A4600A6A5E7 /* xy_1.gif in Resources */,
 				14BA129A1E092F5100A6A5E7 /* menuBtn1.gif in Resources */,
 				14BA12A11E092F5100A6A5E7 /* xyBtnSelected3.png in Resources */,
 				14BA11E41E092A4600A6A5E7 /* x04.gif in Resources */,
@@ -1061,10 +1057,10 @@
 				14BA12601E092A4600A6A5E7 /* pb52.gif in Resources */,
 				14BA124D1E092A4600A6A5E7 /* pb35.gif in Resources */,
 				14BA12661E092A4600A6A5E7 /* qq_thumb.gif in Resources */,
-				14BA120F1E092A4600A6A5E7 /* 5.gif in Resources */,
+				14BA120F1E092A4600A6A5E7 /* xy_5.gif in Resources */,
 				14BA12531E092A4600A6A5E7 /* pb40.gif in Resources */,
 				14BA125D1E092A4600A6A5E7 /* pb5.gif in Resources */,
-				14BA120D1E092A4600A6A5E7 /* 3.gif in Resources */,
+				14BA120D1E092A4600A6A5E7 /* xy_3.gif in Resources */,
 				14BA11FC1E092A4600A6A5E7 /* x28.gif in Resources */,
 				14BA12801E092A4600A6A5E7 /* icon_emotion@2x.png in Resources */,
 				14BA11E81E092A4600A6A5E7 /* x08.gif in Resources */,
@@ -1078,7 +1074,7 @@
 				14BA125F1E092A4600A6A5E7 /* pb51.gif in Resources */,
 				14BA12921E092F5100A6A5E7 /* xyBtn0.png in Resources */,
 				14BA11EF1E092A4600A6A5E7 /* x15.gif in Resources */,
-				14BA0FF31E0923B800A6A5E7 /* XYFace1.plist in Resources */,
+				14BA0FF31E0923B800A6A5E7 /* XYFace0.plist in Resources */,
 				14BA12041E092A4600A6A5E7 /* x36.gif in Resources */,
 				14BA11E01E092A4600A6A5E7 /* x00.gif in Resources */,
 				14BA12231E092A4600A6A5E7 /* hearta_thumb.gif in Resources */,

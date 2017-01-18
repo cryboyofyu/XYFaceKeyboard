@@ -47,7 +47,18 @@
 
 - (NSMutableAttributedString *)xy_dealTheMessage
 {
-    NSDictionary * emotionDic = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"emotionImage" ofType:@"plist"]];
+    NSDictionary * dic0 = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"XYFace0" ofType:@"plist"]];
+    NSDictionary * dic1 = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"XYFace1" ofType:@"plist"]];
+    NSDictionary * dic2 = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"XYFace2" ofType:@"plist"]];
+    NSDictionary * dic3 = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"XYFace3" ofType:@"plist"]];
+    NSMutableDictionary * emotionDic = [NSMutableDictionary dictionaryWithDictionary:dic0];
+    [emotionDic addEntriesFromDictionary:dic1];
+    [emotionDic addEntriesFromDictionary:dic2];
+    [emotionDic addEntriesFromDictionary:dic3];
+
+    NSLog(@"啊哈:%@",emotionDic);
+    
+//    NSDictionary * emotionDic = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"emotionImage" ofType:@"plist"]];
     NSMutableAttributedString * attriStr = [[NSMutableAttributedString alloc]initWithString:self];
 //    attriStr.yy_font = xy_contentFont;
     attriStr.yy_lineSpacing = 2;
@@ -59,17 +70,26 @@
     
     for(NSTextCheckingResult * result in arr){
         NSString * matchStr = [attriStr.string substringWithRange:result.range];
-        
-        if([[emotionDic allKeys] containsObject:matchStr] ){
-            NSString * imageName = [emotionDic objectForKey:matchStr];
+        NSLog(@"匹配到的字符串:%@",matchStr);
+        if([[emotionDic allValues] containsObject:matchStr] ){
+          __block  NSString * imageName;
+            //快速遍历
+            [emotionDic enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+                
+                if([obj isEqualToString:matchStr]){
+                    imageName = [NSString stringWithFormat:@"%@",key];
+                }
+            }];
+            
+            
             NSString * path = [[NSBundle mainBundle] pathForResource:[imageName componentsSeparatedByString:@"."][0] ofType:[imageName componentsSeparatedByString:@"."][1]];
             NSLog(@"xy_取出的图片地址是:%@",path);
             NSData * data = [NSData dataWithContentsOfFile:path];
             YYImage * img = [YYImage imageWithData:data scale:2];
             img.preloadAllAnimatedImageFrames = YES;
-            YYAnimatedImageView * imgView= [[YYAnimatedImageView alloc]initWithFrame:CGRectMake(0, 0, 30, 30)];
-            if([matchStr rangeOfString:@"[pt"].location !=NSNotFound){
-                imgView.frame = CGRectMake(0, 0, 200, 30);
+            YYAnimatedImageView * imgView= [[YYAnimatedImageView alloc]initWithFrame:CGRectMake(0, 0, 200, 30)];
+            if([matchStr rangeOfString:@"[xy"].location !=NSNotFound){
+                imgView.frame = CGRectMake(0, 0, 30, 30);
             }
             imgView.image = img;
             NSMutableAttributedString * attachment = [NSMutableAttributedString yy_attachmentStringWithContent:imgView contentMode:UIViewContentModeCenter attachmentSize:imgView.frame.size alignToFont:[UIFont systemFontOfSize:16] alignment:YYTextVerticalAlignmentCenter];

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>geili_thumb.gif</key>
+	<string>[xy给力]</string>
+	<key>wg_thumb.gif</key>
+	<string>[xy围观]</string>
+	<key>vw_thumb.gif</key>
+	<string>[xy威武]</string>
+	<key>smilea_thumb.gif</key>
+	<string>[xy呵呵]</string>
+	<key>tootha_thumb.gif</key>
+	<string>[xy嘻嘻]</string>
+	<key>laugh.gif</key>
+	<string>[xy哈哈]</string>
+	<key>tza_thumb.gif</key>
+	<string>[xy可爱]</string>
+	<key>kl_thumb.gif</key>
+	<string>[xy可怜]</string>
+	<key>kbsa_thumb.gif</key>
+	<string>[xy挖鼻屎]</string>
+	<key>cj_thumb.gif</key>
+	<string>[xy吃惊]</string>
+	<key>shamea_thumb.gif</key>
+	<string>[xy害羞]</string>
+	<key>zy_thumb.gif</key>
+	<string>[xy挤眼] </string>
+	<key>bz_thumb.gif</key>
+	<string>[xy闭嘴]</string>
+	<key>bs2_thumb.gif</key>
+	<string>[xy鄙视]</string>
+	<key>lovea_thumb.gif</key>
+	<string>[xy爱你]</string>
+	<key>sada_thumb.gif</key>
+	<string>[xy泪]</string>
+	<key>heia_thumb.gif</key>
+	<string>[xy偷笑]</string>
+	<key>qq_thumb.gif</key>
+	<string>[xy亲亲]</string>
+	<key>sb_thumb.gif</key>
+	<string>[xy生病]</string>
+	<key>mb_thumb.gif</key>
+	<string>[xy太开心]</string>
+	<key>ldln_thumb.gif</key>
+	<string>[xy懒得理你]</string>
+	<key>yhh_thumb.gif</key>
+	<string>[xy右哼哼] </string>
+	<key>zhh_thumb.gif</key>
+	<string>[xy左哼哼]</string>
+	<key>x_thumb.gif</key>
+	<string>[xy嘘]</string>
+	<key>cry.gif</key>
+	<string>[xy衰]</string>
+	<key>wq_thumb.gif</key>
+	<string>[xy委屈]</string>
+	<key>t_thumb.gif</key>
+	<string>[xy吐]</string>
+	<key>k_thumb.gif</key>
+	<string>[xy打哈欠] </string>
+	<key>bba_thumb.gif</key>
+	<string>[xy抱抱]</string>
+	<key>angrya_thumb.gif</key>
+	<string>[xy怒]</string>
+	<key>yw_thumb.gif</key>
+	<string>[xy疑问]</string>
+	<key>cza_thumb.gif</key>
+	<string>[xy馋嘴]</string>
+	<key>bb_thumb.gif</key>
+	<string>[xy拜拜]</string>
+	<key>sk_thumb.gif</key>
+	<string>[xy思考]</string>
+	<key>sweata_thumb.gif</key>
+	<string>[xy汗]</string>
+	<key>sleepya_thumb.gif</key>
+	<string>[xy困]</string>
+	<key>sleepa_thumb.gif</key>
+	<string>[xy睡觉]</string>
+	<key>money_thumb.gif</key>
+	<string>[xy钱] </string>
+	<key>sw_thumb.gif</key>
+	<string>[xy失望]</string>
+	<key>cool_thumb.gif</key>
+	<string>[xy酷]</string>
+	<key>hsa_thumb.gif</key>
+	<string>[xy花心]</string>
+	<key>hatea_thumb.gif</key>
+	<string>[xy哼]</string>
+	<key>gza_thumb.gif</key>
+	<string>[xy鼓掌]</string>
+	<key>dizzya_thumb.gif</key>
+	<string>[xy晕]</string>
+	<key>bs_thumb.gif</key>
+	<string>[xy悲伤]</string>
+	<key>crazya_thumb.gif</key>
+	<string>[xy抓狂]</string>
+	<key>h_thumb.gif</key>
+	<string>[xy黑线]</string>
+	<key>yx_thumb.gif</key>
+	<string>[xy阴险]</string>
+	<key>ws_thumb.gif</key>
+	<string>[xy握手]</string>
+	<key>hearta_thumb.gif</key>
+	<string>[xy心]</string>
+	<key>unheart.gif</key>
+	<string>[xy伤心]</string>
+	<key>ok_thumb.gif</key>
+	<string>[xyok]</string>
+	<key>ye_thumb.gif</key>
+	<string>[xy耶]</string>
+	<key>good_thumb.gif</key>
+	<string>[xygood] </string>
+</dict>
+</plist>
