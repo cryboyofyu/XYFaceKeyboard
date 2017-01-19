@@ -36,8 +36,8 @@
     _xyInputBox.xy_delegate = self;
     _xyInputBox.xy_placeholderLabel.text = @"~欣宇最帅~";
     _xyInputBox.xy_placeholderLabel.textColor = xy_placeholderColor;
-    _xyInputBox.xy_faceKeyboard.xy_categoryNormalMArr = [NSMutableArray arrayWithArray:@[@"默认",@"欣宇",@"最帅",@"帽兵"]];
-    _xyInputBox.xy_faceKeyboard.xy_categorySelectedMArr = [NSMutableArray arrayWithArray:@[@"默认",@"欣宇",@"最帅",@"帽兵"]];
+    _xyInputBox.xy_faceKeyboard.xy_categoryNormalMArr = [NSMutableArray arrayWithArray:@[@"默认",@"欣宇",@"最帅",@"最帅"]];
+    _xyInputBox.xy_faceKeyboard.xy_categorySelectedMArr = [NSMutableArray arrayWithArray:@[@"默认",@"github",@"点赞",@"酷毙"]];
     [_xyInputBox xy_createInputBox];
 
 }

@@ -90,13 +90,14 @@
     for(int i=0;i<normalMArr.count;i++){
         UIButton * itemBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         id object = [normalMArr objectAtIndex:i];
+        id selectObject = [selectedMArr objectAtIndex:i];
         if([object isKindOfClass:[UIImage class]]){
             [itemBtn setBackgroundImage:[normalMArr objectAtIndex:i] forState:UIControlStateNormal];
             [itemBtn setBackgroundImage:[selectedMArr objectAtIndex:i] forState:UIControlStateSelected];
 
         }else if([object isKindOfClass:[NSString class]]){
             [itemBtn setTitle:object forState:UIControlStateNormal];
-            [itemBtn setTitle:object forState:UIControlStateSelected];
+            [itemBtn setTitle:selectObject forState:UIControlStateSelected];
             if(_xy_categoryTitleColor_normalMArr.count == normalMArr.count){
                 [itemBtn setTitleColor:[_xy_categoryTitleColor_normalMArr objectAtIndex:i] forState:UIControlStateNormal];
                 [itemBtn setTitleColor:[_xy_categoryTitleColor_selectedMArr objectAtIndex:i] forState:UIControlStateSelected];
