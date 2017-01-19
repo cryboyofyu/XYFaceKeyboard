@@ -6,11 +6,12 @@
 <br>添加方法：cocoapods<br/>
 <br>pod 'XYFaceKeyboard'</br>
 <br>效果</br>
-![image](https://github.com/cryboyofyu/XYFaceKeyboard/blob/master/XYFaceKeyboardExample/XYShowImage/XYFaceShow1.gif)    ![image](https://github.com/cryboyofyu/XYFaceKeyboard/blob/master/XYFaceKeyboardExample/XYShowImage/XYFaceShow2.gif)
-<br>1.可以自定义更换表情,更改plist文件即可</br>
-<br>2.可以自定义表情类别title</br>
-<br>3.可以输入框文字自动滚动</br>
-<br>4.可以自定义placeholder,及背景样式</br>
+![image](https://github.com/cryboyofyu/XYFaceKeyboard/blob/master/XYFaceKeyboardExample/XYShowImage/XYFaceShow1.gif)   
+![image](https://github.com/cryboyofyu/XYFaceKeyboard/blob/master/XYFaceKeyboardExample/XYShowImage/XYFaceShow2.gif)
+<br>**1.可以自定义更换表情,更改plist文件即可**</br>
+<br>**2.可以自定义表情类别title**</br>
+<br>**3.可以输入框文字自动滚动**</br>
+<br>**4.可以自定义placeholder,及背景样式**</br>
 <br>1.方法<br/>
 ```objective-c
 _xyInputBox = [[XYInputBox alloc]initWithFrame:CGRectMake(0, CGRectGetHeight(self.view.frame) - xy_commentBoxH,xy_width, xy_commentBoxH) withBgView:self.view];
@@ -30,6 +31,6 @@ _xyInputBox = [[XYInputBox alloc]initWithFrame:CGRectMake(0, CGRectGetHeight(sel
  ```   
 }
     
-<br>**欢迎大家提意见，一起交流学习，会根据大家的反馈及时更新。谢谢！**<br/>
+<br>**欢迎大家提意见，一起交流学习，会根据大家的反馈及时更新。谢谢！别忘了给个星哦~**<br/>
 <br>**如果小弟的一点点薄力可以给大家带来便利，小弟三生有幸！会再接再厉！您的支持就是我的动力！**<br/>
-<br>**还有《自定义表情键盘》《自定义九宫格》，都非常不错哦，感兴趣的要关注哦！**<br/>
+<br>**还有《高仿微信群组页面》《自定义九宫格》《高仿微博首页》《消息角标》，都非常不错哦，感兴趣的要关注哦！**<br/>
